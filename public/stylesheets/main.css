@@ -1,0 +1,188 @@
+body {
+  background-image: url(cover.jpg);
+}
+thead {
+    background-color: #a17fe0;
+}
+
+#logouts{
+  background-color: pink;
+  padding: 7px;
+  width: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  animation: bn53bounce 4s infinite;
+  cursor: pointer;
+  position: absolute;
+  left:2%;
+  margin-top: 1%;
+}
+
+@keyframes bn53bounce {
+  5%,
+  50% {
+    transform: scale(1);
+  }
+
+  10% {
+    transform: scale(1);
+  }
+
+  15% {
+    transform: scale(1);
+  }
+
+  20% {
+    transform: scale(1) rotate(-5deg);
+  }
+
+  25% {
+    transform: scale(1) rotate(5deg);
+  }
+
+  30% {
+    transform: scale(1) rotate(-3deg);
+  }
+
+  35% {
+    transform: scale(1) rotate(2deg);
+  }
+
+  40% {
+    transform: scale(1) rotate(0);
+  }
+}
+
+.three {
+    background-color:#ffc0cb;
+}
+
+.images {
+    height: 200px;
+    width: 160px;
+}
+
+.images:hover {
+  transform: scale(1.5);
+  
+}
+
+h5 {
+  color: #5D54A4;
+  font-size: 32px;
+  font-family:'Amatic SC';
+  font-weight: bolder;
+  text-align: center;
+}
+
+.addings {
+  background-image: url(modal.jpg);
+}
+
+.addings2 {
+  background-image: url(modal2.jpg);
+}
+
+.four {
+    font-size: 18px;
+}
+
+h1 {
+  color: #5D54A4;
+	font-weight: bolder;
+	font-size: 72px;
+	text-align: center;
+	font-family: 'Amatic SC';
+}
+
+#mytable
+{
+  margin-left: -10%;
+}
+
+.noselect {
+	width: 150px;
+	height: 50px;
+  margin-bottom: 3%;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+	background: white;
+	border: 2px solid black;
+	box-shadow: 5px 5px 0 #a17fe0,
+		-5px -5px 0 #ffc0cb,
+		-5px 5px 0 #ffc0cb,
+		5px -5px 0 #a17fe0;
+	transition: 500ms ease-in-out;
+  margin-left: -10%;
+}
+
+.noselect:hover {
+	box-shadow: 20px 5px 0 #a17fe0, -20px -5px 0 #ffc0cb;
+}
+
+.noselect:focus {
+	outline: none;
+}
+
+
+
+.one {
+  background: linear-gradient(to bottom right, #11998e  , #38ef7d);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.one:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.one:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem #11998e, .125rem .125rem 1rem #38ef7d;
+}
+
+.two {
+    background: linear-gradient(to bottom right, #333333, #dd1818   );
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+  }
+  
+  .two:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }
+  
+  .two:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }
